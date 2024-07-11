@@ -1,5 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:first_app/jbcustom_text.dart';
+import 'package:first_app/stateful_dice.dart';
+import 'package:flutter/material.dart';
+import 'stateful_dice.dart';
 
 /* Global Variable Declarations/Initialization */
 const startAlignment = Alignment.topLeft;
@@ -24,10 +26,7 @@ class JBCustomContainer extends StatelessWidget {
         ),
       ),
       child: Center(
-        child: Image.asset(
-          'assets/images/dice-2.png',
-          width: 200,
-        ),
+        child: DiceRoller(),
       ),
     );
   }
