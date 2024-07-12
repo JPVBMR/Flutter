@@ -32,5 +32,62 @@
 
 - [google_fonts](https://pub.dev/packages/google_fonts)
 
+## Key Concepts
+
+### Flutter Basics
+
+- **Main Entry Point**
+  - The `main` function in the main Dart file is the entry point, executed automatically by Dart when the app starts.
+  - Use `runApp` to pass your widget tree to the app.
+
+### Widgets
+
+- **Stateful and Stateless Widgets**
+  - Built various widgets and passed data between them.
+  - Learned to accept and use functions as input values in widgets.
+
+### State Management
+
+- **Conditional Content**
+  - Use the `if` keyword to set variable values based on state, allowing for different UI states.
+  - **Ternary Expressions**: A concise way of setting content conditionally.
+
+### Dart Programming
+
+- **Passing Functions**
+  - Functions can be passed as values, enabling dynamic behavior in widgets.
+
+- **For Loops**
+  - Execute code repeatedly until a condition is met.
+  - Used to process user answers and create summary data.
+
+- **Maps**
+  - Combine key-value pairs into one object.
+  - Understand the importance of type casting when using maps.
+
+### List Operations
+
+- **List Methods**
+  - **shuffle**: Change the order of list items.
+  - **add**: Add new entries to a list.
+  - **where**: Filter a list based on a condition.
+  - **map**: Generate a new list of transformed items.
+  - **Spread Operator (`...`)**: Add list elements as standalone items to a surrounding list.
+
+### Widgets and Styling
+
+- **SingleChildScrollView**
+  - Make child widgets scrollable while restricting size.
+
+- **Styling Options**
+  - Configurations like the **shape** option for buttons to add rounded borders.
+
+### Custom Classes
+
+- **Standard Classes**
+  - Use the `class` keyword to build standard classes for non-widget objects.
+  - Example: A class for question text and possible answers with a method for shuffling answers.
+
+
 
 
