@@ -1,6 +1,6 @@
 # Quizz Application - Multi Screens 
 
-
+![image](https://github.com/user-attachments/assets/2ec23ce1-372a-4cc5-b3ed-b98163de6dc0)
 
 ## How to Run
 
@@ -8,9 +8,6 @@
 2. Clone this repository.
 3. Run `flutter pub get` to install dependencies.
 4. Use `flutter run` to start the application on an emulator or physical device.
-
-## Screenshots
-![image](https://github.com/user-attachments/assets/2ec23ce1-372a-4cc5-b3ed-b98163de6dc0)
 
 ## File Structure
 
