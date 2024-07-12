@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class StartScreen extends StatelessWidget {
   /* constructor */
-  const StartScreen({super.key});
+  const StartScreen(this.switchScreenFunction, {super.key});
+
+  final void Function() switchScreenFunction;
 
   @override
   Widget build(context) {
@@ -17,13 +20,13 @@ class StartScreen extends StatelessWidget {
             color: Color.fromARGB(199, 255, 255, 255), //Fake opacity of images
           ),
           const SizedBox(height: 60),
-          const Text(
+          Text(
             'Quizz App for Flutter training',
-            style: TextStyle(color: Colors.white),
+            style: GoogleFonts.lato(color: Colors.white, fontSize: 20),
           ),
           const SizedBox(height: 20),
           OutlinedButton.icon(
-            onPressed: () {},
+            onPressed: switchScreenFunction,
             style: OutlinedButton.styleFrom(
               foregroundColor: Colors.white,
             ),
