@@ -6,8 +6,9 @@
 
 1. Ensure you have Flutter installed. If not, follow the instructions [here](https://flutter.dev/docs/get-started/install).
 2. Clone this repository.
-3. Run `flutter pub get` to install dependencies.
-4. Use `flutter run` to start the application on an emulator or physical device.
+3. Run `flutter create .` to create the flutter app configurations.
+4. Run `flutter pub get` to install dependencies.
+5. Use `flutter run` to start the application on an emulator or physical device.
 
 ## File Structure
 
