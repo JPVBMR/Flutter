@@ -70,7 +70,7 @@ void main() {
         /* scaffoldBackgroundColor: Color.fromARGB(186, 224, 188, 186), */
       ),
       /* Control the Theme mode: Dark or light */
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.system,
       home: const Expenses(),
     ),
   );
