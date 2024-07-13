@@ -1,9 +1,11 @@
 import 'package:expense_tracker_app/widgets/expenses.dart';
+import 'package:flutter/services.dart'; /* Lock Device Orientation */
+
 import 'package:flutter/material.dart';
 
 /* Create a color schema for flutter to use automatically */
 var kColorSchema = ColorScheme.fromSeed(
-  seedColor: const Color.fromARGB(255, 0, 18, 31),
+  seedColor: Color.fromARGB(255, 167, 207, 214),
 );
 
 /* DarkTheme Color Scheme */
@@ -13,9 +15,15 @@ var kColorSchemaDark = ColorScheme.fromSeed(
 );
 
 void main() {
+  /* Lock Device Orientation */
+/*   WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]).then((fn) { */
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
+      /* Remove Debug Label */
 
       /* Dark Theme */
       darkTheme: ThemeData.dark().copyWith(
@@ -38,6 +46,7 @@ void main() {
           backgroundColor: kColorSchema.onPrimaryContainer,
           foregroundColor: Colors.white,
         ),
+        scaffoldBackgroundColor: Color.fromARGB(255, 180, 228, 230),
         cardTheme: const CardTheme().copyWith(
           color: kColorSchema.secondaryContainer,
           margin: const EdgeInsets.fromLTRB(20, 5, 20, 0),
@@ -61,7 +70,7 @@ void main() {
         /* scaffoldBackgroundColor: Color.fromARGB(186, 224, 188, 186), */
       ),
       /* Control the Theme mode: Dark or light */
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.light,
       home: const Expenses(),
     ),
   );

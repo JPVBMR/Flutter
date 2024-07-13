@@ -42,6 +42,7 @@ class _ExpensesState extends State<Expenses> {
   void _openAddExpenseModal() {
     /* Standard feature/function provided by flutter using global context variable */
     showModalBottomSheet(
+      useSafeArea: true,
       /* The modal goes Fullscreen */
       isScrollControlled: true,
       context: context,
@@ -86,6 +87,9 @@ class _ExpensesState extends State<Expenses> {
 
   @override
   Widget build(BuildContext context) {
+    /* Dynamic getter for screen widtg */
+    final width = MediaQuery.of(context).size.width;
+
     Widget mainContent = const Center(
       child: Text('No expenses found. Start by adding some!'),
     );
@@ -114,19 +118,32 @@ class _ExpensesState extends State<Expenses> {
           ),
         ],
       ),
-      /* Column to divide page into sections (children) one bellow the other */
-      body: Column(
-        children: [
-          /* The Charts */
-          Chart(
-            expenses: _lstOfExpenses,
-          ),
-          /* The Expenses List [Using List-Inside-Column (list) requires the child to be expanded ]*/
-          Expanded(
-            child: mainContent,
-          ),
-        ],
-      ),
+      body: width < 600
+          /* [Portrait] Column to divide page into sections (children) one bellow the other */
+          ? Column(
+              children: [
+                /* The Charts */
+                Chart(
+                  expenses: _lstOfExpenses,
+                ),
+                /* The Expenses List [Using List-Inside-Column (list) requires the child to be expanded ]*/
+                Expanded(
+                  child: mainContent,
+                ),
+              ],
+            )
+          /* [Landscape] Use rows to set elements side by side */
+          : Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: Chart(expenses: _lstOfExpenses),
+                ),
+                Expanded(
+                  child: mainContent,
+                ),
+              ],
+            ),
     );
   }
 }
