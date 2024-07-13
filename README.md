@@ -5,5 +5,5 @@
 
 - [Roll Dice](./first_app) - A simple app that simulates a dice roll by switching dice images on click.
 - [Quizz App](./quizz_app) - A quiz application to answer questions and view results.
-- [Expense Tracker](./expense_tracker) - An expense tracker app to manage and track your expenses with Charts and Dismissable List Items.
+- [Expense Tracker](./expense_tracker_app) - An expense tracker app to manage and track your expenses with Charts and Dismissable List Items.
 
