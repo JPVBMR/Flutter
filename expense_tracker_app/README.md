@@ -1,10 +1,10 @@
 # Expense Tracker Application
 
 <p align="center">
-  <img src="./screenshots/" alt="Image 1" width="200"/>
-  <img src="path/to/image2.png" alt="Image 2" width="200"/>
-  <img src="path/to/image3.png" alt="Image 3" width="200"/>
-  <img src="path/to/image4.png" alt="Image 4" width="200"/>
+  <img src="./screenshots/Captura de ecrã 2024-07-13 114205.png" alt="Image 1" width="210" height="400"/>
+  <img src="./screenshots/Captura de ecrã 2024-07-13 115021.png" alt="Image 2" width="210" height="400"/>
+  <img src="./screenshots/Captura de ecrã 2024-07-13 120620.png" alt="Image 4" width="210" height="400"/>
+  <img src="./screenshots/Captura de ecrã 2024-07-13 115525.png" alt="Image 3" width="210" height="400"/>
 </p>
 
 ## Key Concepts Learned
