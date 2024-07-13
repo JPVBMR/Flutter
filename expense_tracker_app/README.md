@@ -8,7 +8,7 @@
 </p>
 
 ## Key Concepts Learned
-
+> This application was developed for training purposes and so the code should be refactored and a Widget extraction should be implemented to avoid complex code
 ### User Interface Elements
 
 - **Snackbar and Modal Bottom Sheet**
