@@ -1,6 +1,7 @@
-# meals_app
+# Meals App - Manage State Across Multiple Widgets
 
-![Video Preview](./assets/demoMeals.gif)
+![image](https://github.com/user-attachments/assets/5fd98536-0e46-4bd2-9e7c-ea32c57a3978)
+
 
 ## Getting Started
 
