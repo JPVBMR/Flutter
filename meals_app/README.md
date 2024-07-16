@@ -1,6 +1,6 @@
 # meals_app
 
-A new Flutter project.
+![Video Preview](./assets/demoMeals.gif)
 
 ## Getting Started
 
