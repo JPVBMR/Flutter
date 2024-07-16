@@ -8,3 +8,11 @@
 - [Expense Tracker](./expense_tracker_app) - An expense tracker app to manage and track your expenses with Charts and Dismissable List Items.
 - [Meals App](./meals_app) - An app with different screens and navigation options with Side Drawers and Bottom Navigation Bars. It also uses Providers & Notifiers to manage state across different widgets  and laso Implicity/Explicity Animations.
 
+### How to Run
+
+1. Ensure you have Flutter installed. If not, follow the instructions [here](https://flutter.dev/docs/get-started/install).
+2. Clone this repository and open an integrated terminal.
+3. Run `cd app_folder` and make sure to replace 'app_folder' with the name of the app directory (ex: cd quizz_app)
+4. Run `flutter create .` to create the flutter app configurations.
+5. Run `flutter pub get` to install dependencies.
+6. Use `flutter run` to start the application on an emulator or physical device.
