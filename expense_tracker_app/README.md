@@ -1,14 +1,14 @@
 # Expense Tracker Application
 
 <p align="center">
-  <img src="./screenshots/Captura de ecrã 2024-07-13 114205.png" alt="Image 1" width="210" height="400"/>
-  <img src="./screenshots/Captura de ecrã 2024-07-13 115525.png" alt="Image 3" width="210" height="400"/>
-  <img src="./screenshots/Captura de ecrã 2024-07-13 120620.png" alt="Image 4" width="210" height="400"/>
-  <img src="./screenshots/Captura de ecrã 2024-07-13 115021.png" alt="Image 2" width="210" height="400"/>
+  <img src="./screenshots/newexpense_dark.png" alt="Image 1" width="210" height="400"/>
+  <img src="./screenshots/delete_dark.png" alt="Image 3" width="210" height="400"/>
+  <img src="./screenshots/undo_dark.png" alt="Image 4" width="210" height="400"/>
+  <img src="./screenshots/newexpense_light.png" alt="Image 2" width="210" height="400"/>
 </p>
 
 ## Key Concepts Learned
-
+> This application was developed for training purposes and so the code should be refactored and a Widget extraction should be implemented to avoid complex code
 ### User Interface Elements
 
 - **Snackbar and Modal Bottom Sheet**
@@ -52,6 +52,24 @@
 - **Color Themes**
   - Defining and using different color themes for light and dark modes.
   - Overwriting specific theme settings to customize the appearance of the app.
+ 
+  - ### Responsive User Interfaces
+- **MediaQuery**: Utilized to retrieve the width or height of the screen where the UI is presented. This allows for dynamic adjustments based on screen size.
+- **LayoutBuilder**: Used to obtain information about the constraints applied by the parent widget, enabling conditional rendering of UI components.
+
+### Conditional UI Rendering
+- By using data from MediaQuery and LayoutBuilder, the UI can adapt its structure, such as rendering a row instead of a column or vice versa, based on the available space.
+
+### Dynamic Padding and Scrollability
+- **Dynamic Padding**: Ensures that the content adjusts appropriately when the keyboard is opened, preventing overlap and maintaining accessibility of input fields.
+- **Scrollability**: Adding scroll functionality ensures that all input fields remain reachable, regardless of the keyboard's position.
+
+### Safe Area Concept
+- **SafeArea**: Utilized to prevent the device camera or other intrusions from overlapping with the UI, ensuring that important UI components are always visible.
+
+### Platform Awareness
+- **Platform-Specific Code**: Learned how to detect the platform the app is running on and execute different code or display different widgets based on that information, enhancing cross-platform compatibility.
+
 
 ### Practical Application
 
