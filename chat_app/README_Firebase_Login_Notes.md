@@ -22,10 +22,3 @@
     - The token has an expiration time and needs to be managed.
     - Firebase SDK handles the storage and lifecycle of the token, ensuring it is renewed as needed.
 
-## Steps to Implement User Login Logic
-
-1. **Prepare the Login Form**:
-    - Ensure you have a form where users can enter their email and password.
-
-2. **Firebase SDK Setup**:
-    - Make sure the Firebase SDK is correctly set up and configured in your project.
