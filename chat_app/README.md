@@ -1,9 +1,9 @@
 # Chat App Development Overview
 
 <p align="center">
-  <img src="./assets/screenshots/chat_register.png" alt="Image 1" width="210" height="400"/>
-  <img src="./screenshots/chat_login.png" alt="Image 3" width="210" height="400"/>
-  <img src="./screenshots/chat_group_screen.png" alt="Image 4" width="210" height="400"/>
+  <img src="./assets/screenshots/chat_login.png" alt="Image 3" width="250" height="500"/>
+  <img src="./assets/screenshots/chat_register.png" alt="Image 1" width="250" height="500"/>
+  <img src="./assets/screenshots/chat_group_screen.png" alt="Image 4" width="250" height="500"/>
 </p>
 
 ### 1. Flutter Basics
