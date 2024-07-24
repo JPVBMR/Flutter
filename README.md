@@ -8,7 +8,7 @@
 - [Expense Tracker](./expense_tracker_app) - An expense tracker app to manage and track your expenses with Charts and Dismissable List Items.
 - [Meals App](./meals_app) - An app with different screens and navigation options with Side Drawers and Bottom Navigation Bars. It uses Providers & Notifiers to manage state across different widgets  and also Implicity/Explicity Animations.
 - [Shopping List App](./shopping_list_app) - An app to create and manage a shopping list with features to add and delete items. Integrates with Firebase to store data remotely via HTTPS requests.
-
+- [Group Chat App](./chat_app) - Chat application integrated with Firebase. It features user authentication, allowing users to register and log in using email and password. Once authenticated, users can engage in real-time messaging with others, complete with profile pictures. Firebase handles the backend operations, ensuring smooth and reliable data storage and retrieval.
 
 ### :runner: How to Run
 
