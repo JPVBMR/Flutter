@@ -91,6 +91,3 @@
 - **Firebase CLI**: Tool for managing Firebase services.
 - **FlutterFire CLI**: Tool for integrating Firebase with Flutter projects.
 
-## Advanced Features to be Added
-- **Image Upload**: Allow users to upload and display profile pictures.
-- **Push Notifications**: Notify users of new messages and updates.
