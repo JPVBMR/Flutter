@@ -1,6 +1,9 @@
 # flappy_bird
 
-A new Flutter project.
+<p align="center">
+  <img src="./assets/Start.png" alt="Image 1" width="350" height="500"/>
+  <img src="./assets/inGame.png" alt="Image 2" width="450" height="500"/>
+</p>
 
 ## Getting Started
 
