@@ -1,5 +1,5 @@
 # Flutter
-:information_source: Development of multi-platform applications using Flutter & Dart for training purposes. 
+:information_source: Development of multi-platform applications using Flutter & Dart for training purposes and small/medium businesses. 
 
 ### :octocat: Apps in this Repository
 
